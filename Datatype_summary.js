@@ -46,3 +46,31 @@ console.log(typeof myfunc);
 // type of array is object
 // type of object is object
 // type of function is function (object function )
+
+
+// stack and heap memory
+// primitive type uses stack and non primitives uses heap
+
+// whenever satck memory is used , we get a copy of variable
+// whenever heap memory is used , we get memory reference
+
+let myYTname="Ananya"
+let another=myYTname  //copy of myYtname is assigned
+another="DevwithAnanya"
+
+console.log(another)
+console.log(myYTname);
+
+
+let userone={
+email:"abc@gmail.com",
+age:3
+
+}
+let usertwo=userone  //usertwo gets the memory refernce
+// so any change is done in original value
+usertwo.email="efg@gmail.com"  //change in memory refernce
+//use dot to access object properties
+
+console.log(userone.email);  //original will be changed
+console.log(usertwo.email);
