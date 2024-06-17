@@ -25,3 +25,20 @@ console.log(valueinId)
 // 0-false
 // ""-false
 // "Ananya"-true
+
+let str1="hello"
+let str2= " Javascript"
+let str3 = str1 + str2
+console.log(str3);
+console.log("1"+2); //pehle string hai to sbhi string 
+// he treat honge
+ console.log(1+"2"); //int ko string treat kiya jayega
+ console.log(1+2+"2"); //string last me hai to
+//  pehle int expression evaluate ho jaayega 
+console.log("2"+3+3); //string pehle to sb string he
+//  treat honge
+
+// prefix /postfix increment decrement 
+let x=5
+console.log(x++)
+console.log(++x);
