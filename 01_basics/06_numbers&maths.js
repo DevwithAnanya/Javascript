@@ -20,6 +20,8 @@ console.log(Math.ceil(4.2));  // round off to upper int
 console.log(Math.floor(4.6)); // round off to lower int
 console.log(Math.min(1,2,2,3,5));
 
+
+
 console.log(Math.random()); //value in range (0,1)
 console.log((Math.random()*10)); 
 console.log((Math.random()*10)+1);//(1-11)  // to avoid 0
