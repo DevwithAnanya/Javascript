@@ -16,7 +16,7 @@ console.table([password,AccountPwd,City , accountState])
 //to display multiple items in form of table
 
 /*do not use var for variabe declaration 
-  because of issues in block and functional scope
+  because it has function scope not block space , so it ignores {} 
   , using var , there was no well defined scope of
   the variable 
   so now we only use const and let to declare variable
