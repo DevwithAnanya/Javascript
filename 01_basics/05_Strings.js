@@ -1,8 +1,8 @@
-const name="ananya"
+const naam="ananya"
 const repocount= 29
-console.log(name+repocount);//not recommended now
+console.log(naam+repocount);//not recommended now
 //instead , use string interpolation
-console.log(`My name is ${name} and my repo count is ${repocount}`)
+console.log(`My name is ${naam} and repo count is ${repocount}`)
 // `` not single inverted commas
 
 const gamename = new String('Hello')
@@ -10,7 +10,7 @@ const gamename = new String('Hello')
 console.log(gamename[0]);
 console.log(gamename.length);
 console.log(gamename.toUpperCase());
-console.log(gamename.charAt(2));
+console.log(gamename.charAt(3));
 console.log(gamename.indexOf('H'));
 const newstring= gamename.substring(0,4)
 console.log(newstring);
