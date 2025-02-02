@@ -12,7 +12,7 @@ String , Number,Boolean,null,undefined,Symbol
 
 
 
-// JS is dynamicallly types language
+// JS is dynamically typed language
 // we dont need to define the datatypes
 
 const score=100
@@ -36,8 +36,8 @@ name:"hitesh",
 age:30    
 } //this is an object (key value pair)
 
-const myfunc=function(){
-console.log("hello world");
+const myfunc= function(){
+    console.log("hello world")
 }
 console.log(typeof heros);
 console.log(typeof myobj);
@@ -67,7 +67,7 @@ email:"abc@gmail.com",
 age:3
 
 }
-let usertwo=userone  //usertwo gets the memory refernce
+let usertwo=userone  //usertwo gets the memory reference
 // so any change is done in original value
 usertwo.email="efg@gmail.com"  //change in memory refernce
 //use dot to access object properties
