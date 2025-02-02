@@ -22,6 +22,10 @@ let bignumber=1334445555555555n; //bigint
 // string => ""
 // boolean => true/false
 // null => standalone value , absence of any object value
+/*It is manually assigned to a variable when we want to 
+ indicate that it has no value.
+It is not the same as undefined 
+(which means a variable is declared but not assigned).*/ 
 // undefined => 
 // symbol =>  used to create unique keys for objects
 
@@ -30,7 +34,8 @@ let bignumber=1334445555555555n; //bigint
 
 console.log(typeof undefined); // undefined   , typeof operator returns the type of the value
 console.log(typeof null); // object`  
-/*
+/* it is a bug since first implemetation of js , not fixed as
+ it will break lot of js code
 In the first implementation of JavaScript, JavaScript values were represented as a type tag and a value.
  The type tag for objects was 0 Consequently, null had 0 as type tag, hence the typeof return value "object".
 */
