@@ -21,7 +21,7 @@ console.log(myArr)
 console.log(myArr.includes(9))
 console.log(myArr.indexOf(4))
 
-const mynewarr = myArr.join();  //jjoins the elements of array to a string
+const mynewarr = myArr.join();  //joins the elements of array to a string
 console.log(mynewarr)
 
 const testarr1 = myArr.slice(1,3)  //gives a portion of array , not including last
