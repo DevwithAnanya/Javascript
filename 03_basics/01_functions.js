@@ -44,3 +44,40 @@ function loginuser3(username ="sam"){
 
 }
 console.log(loginuser3())  //default parameter will be taken as username 
+
+function calculatecartPrice(num1){
+    return num1
+}
+console.log(calculatecartPrice(4,5))  //ek parameter he hai defination me 
+// to print bhi ek he hoga 
+// what if multiple values pass krwani ho fxn se 
+
+
+function calculatecartPrice(...num1){   //...rest operator
+    return num1    //returns an array of arguments
+}
+console.log(calculatecartPrice(4,5))
+
+function calculatecartPrice( val1 , val2 , ...num1){
+    return num1
+}
+console.log(calculatecartPrice(4,5, 7 ,6 ))
+
+//passing object to a fxn
+const user ={
+    username:"Ananya",
+    price:100
+}
+function handleobject(anyobject){
+     console.log( `username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+handleobject(user) //direct yahan pe bhi pass kr skte object , pehle define kiye bina
+
+
+// passing arrays
+const arr1=[1,2,3,4]
+function myfunc2(anyarr){
+    console.log(anyarr[1])
+}
+myfunc2(arr1)
