@@ -23,6 +23,8 @@ console.log(myArr.indexOf(4))
 
 const mynewarr = myArr.join();  //joins the elements of array to a string
 console.log(mynewarr)
+console.log(mynewarr.length)
+
 
 const testarr1 = myArr.slice(1,3)  //gives a portion of array , not including last
 console.log(testarr1)
