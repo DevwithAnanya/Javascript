@@ -24,6 +24,6 @@ JsUser.age=21  //modifying object
 Object.freeze(JsUser)  //freezing object so nobody can modify
 
 myobj.myfunc = function(){
-    console.log("hello JS")
+    console.log("hello JS")  //fxn does not returning anything , simply output 
 }
 console.log(myobj.myfunc())
